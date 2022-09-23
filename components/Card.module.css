@@ -1,0 +1,33 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #000;
+  --angle: 0deg;
+  border: 5px solid;
+  border-image: conic-gradient(
+      from var(--angle),
+      rgb(255, 94, 94),
+      rgb(255, 255, 89),
+      rgb(107, 255, 107),
+      rgb(96, 255, 255),
+      rgb(86, 86, 255),
+      rgb(255, 105, 255),
+      rgb(255, 94, 94)
+    )
+    1;
+  animation: 3s rotate linear infinite;
+  box-shadow: 2px 2px 10px 2px #ffffff80;
+}
+
+@keyframes rotate {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
