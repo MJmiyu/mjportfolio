@@ -19,10 +19,27 @@
   animation: 10s rotate linear infinite;
   box-shadow: 2px 2px 10px 2px #ffffff80;
   width: 250px;
+  gap: 15px;
+}
+
+.CardTitle {
+  text-align: center;
+}
+
+.Link {
+  text-align: center;
+  color: #efefef;
+  text-decoration: underline;
+}
+
+.Link:hover {
+  color: #fff;
+  font-weight: bold;
 }
 
 .Image {
   object-fit: contain;
+  margin-bottom: auto;
 }
 
 @keyframes rotate {
