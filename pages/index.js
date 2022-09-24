@@ -5,7 +5,7 @@ import Card from '../components/Card';
 export default function Home() {
   return (
     <div>
-      <h1>My Portfolio</h1>
+      <h1 className={styles.Title}>My Portfolio</h1>
       <div className={styles.Cards}>
         <Card
           title="Dog API"

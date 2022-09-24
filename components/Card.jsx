@@ -7,7 +7,7 @@ const Card = ({ title, description, image, link, linkName, liveLink }) => {
       <h2>{title}</h2>
       <p>{description}</p>
       {liveLink && <a href={liveLink}>{title}</a>}
-      <Image src={image} width={300} height={300} />
+      <img src={image} className={styles.Image} />
       <a href={link}>{linkName}</a>
     </div>
   );

@@ -4,3 +4,13 @@
   justify-content: center;
   gap: 50px;
 }
+
+.Title {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .Cards {
+    flex-direction: column;
+  }
+}
