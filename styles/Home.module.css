@@ -4,6 +4,7 @@
   justify-content: center;
   gap: 75px;
   flex-wrap: wrap;
+  margin-bottom: 75px;
 }
 
 .Title {
