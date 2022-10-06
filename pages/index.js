@@ -10,7 +10,7 @@ export default function Home() {
         Hello and welcome to my portfolio! My Name is Marthe Johanne Neverdal
         and I have recently finished my front end developer studies. I have been
         studying development from october 2018 to october 2022, while working
-        part time.<br></br> Learning programming has been fun and I'm always
+        part time.<br></br> Learning programming has been fun and I am always
         looking to learn more! I hope you will find my journey interresting and
         see all I have learned these years.
       </p>
